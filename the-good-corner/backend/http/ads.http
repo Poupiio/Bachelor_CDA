@@ -1,0 +1,40 @@
+GET http://localhost:3000/ads
+# GET http://localhost:3000/ads?location=paris
+
+###
+GET http://localhost:3000/ads/2
+
+###
+# GET http://localhost:3000/ads/location/bordeaux
+
+###
+POST http://localhost:3000/ads
+Content-Type: application/json
+
+{
+   "title": "Coucou",
+   "description":
+      "Super fun",
+   "owner": "jane.doe@gmail.com",
+   "price": 10,
+   "picture":
+      "https://images.pexels.com/photos/681118/pexels-photo-681118.jpeg?auto=compress&cs=tinysrgb&w=800",
+   "location": "Perpignan",
+   "createdAt": "2024-02-18",
+   "category": 2,
+   "tags": [{"id": 5}]
+}
+
+###
+PUT http://localhost:3000/ads/5
+Content-Type: application/json
+
+{
+   "categoryId": 1
+}
+
+###
+DELETE http://localhost:3000/ads/4
+
+### 
+DELETE http://localhost:3000/ads

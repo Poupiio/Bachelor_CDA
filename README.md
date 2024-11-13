@@ -7,4 +7,5 @@
 - ### Front-end [:pencil2:](https://github.com/Poupiio/The_good_corner_Frontent)
 
 ## GraphQL
-### Apollo Server [:pencil2:](https://github.com/Poupiio/Apollo_Server)
+- ### Apollo Server - Test [:pencil2:](https://github.com/Poupiio/Apollo_Server)
+- ### The Good Corner - Backend [:pencil2:](https://github.com/Poupiio/TGC_Backend_GraphQL)

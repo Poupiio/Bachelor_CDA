@@ -9,3 +9,4 @@
 ## GraphQL
 - ### Apollo Server - Test [:pencil2:](https://github.com/Poupiio/Apollo_Server)
 - ### The Good Corner - Backend [:pencil2:](https://github.com/Poupiio/TGC_Backend_GraphQL)
+- ### The Good Corner - Frontend [:pencil2:](https://github.com/Poupiio/TGC_Frontend_GraphQL)
